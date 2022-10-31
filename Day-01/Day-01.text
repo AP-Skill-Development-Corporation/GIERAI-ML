@@ -1,0 +1,148 @@
+Day-01[31-10-2022]:
+===================
+	Good Morning to All...
+
+	print("the addition of {} and {} is {}".format(a=5,b=3,a+b))
+	print("the addition",a,"and" , b ,"is",a+b)
+	print("the addition of %d and %d is %d"%(1,2,1+2))
+	print(f"the addition of {a} and {b} is {a+b}")
+	print("the addition of {1} and {0} is {2}".format(a=5,b=3,a+b))
+
+	Django Prerequisite Softwares:
+	==============================
+		- Python
+		- db browser
+		- sublime
+
+	Python Downloads:
+	=================
+	- First open browser and navigate to "python.org" site in that we can observer "Downloads" then we need to place a cursor on it then it displays with some options such as to select the operating system what we are using in local machine
+	- After selecting the operating system then we can observe 2 columns i.e.,
+		- stable release [Completely Developed] 
+		- pre release [Not developed fully its for developer purpose]
+	- We need to select stable release files in that we need to download particular version such as like python 3.7 etc., then we need to use "cntrl + f" for searching the version of it
+	- If we need python then we need to type python 3.7 then it automatically navigates to the location where it exists. We need to choose from stable release side in that it displays number of options such as
+		- help file
+		- embedded zip file
+		- executeable installer
+		- web based installer
+	- In those options we need to download "executeable installer" because windows prefer to install only ".exe" file extensions
+	- Automatically it downloads the python in your downloads folder.
+
+	Python Installation:
+	====================
+	- After Downloads then we need to double tap on the executeable file then it appears a window for accepting the installations from a user. Click on "yes" for installations
+	- It displays a window with 2 options and 2 checkboxes
+		-> 2 options
+			- install now [Default path]
+			- custom installation [User Defined Folder location path]
+		-> 2 checkboxes
+			- All user
+			- Add python for path
+	- We need to select those 2 checkboxes and need to select "install now" then it automatically installs in the default location.
+
+	Python Version Check:
+	=====================
+	- Open command prompt and type the command for checking the python is installed in a system or not?
+		=> python -V
+					or
+		=> python --version
+
+	If the comand prompt doesnt access Python?
+		=> python is not installed
+		=> It has 2 or more version of python is installed
+		=> Python installed but the path is not set to environment variable path
+		=> Using of Anaconda Navigator
+
+	Pip:
+	====
+		=> To install third party packages we need to use pip command
+
+	Pip Version Check:
+	==================
+	- Open command prompt and then we need to type the command such as
+		=> pip -V
+
+	Upgrading pip:
+	==============
+	- Open command prompt and then type the command for version upgrade to a pip
+		=> python -m pip install --upgrade pip
+
+
+	Django installation:
+	====================
+	- Open command prompt and then type the command to install a django framework
+		=> pip install django==3.x
+					or
+		=> pip install django [It installs updated version]
+
+	Django Version Check:
+	=====================
+	- Open command prompt and then try to check whether the django is installed in your machine or not by using the command such as
+		=> django-admin --version
+
+	Project Creation:
+	=================
+	- Create a folder in any location of a drive then open particular path location by using command prompt. After navigating to the path then we need to create a project by using the command such as
+		=> django-admin startproject "projectname"
+
+		Ex:
+		   django-admin startproject CSMProject
+	- Inside of the project folder it creates a same folder name as project folder and with a file such as "manage.py"
+		=> CSMProject => [Project Folder]
+			=> CSMProject [Admin App]
+			=> manage.py [Services file]
+
+
+	Python Basics:
+	==============
+		- Variables, assgining of values in different ways
+		- Input and Output
+		- Conditional statements
+			- if
+			- if-else
+			- nested if
+			- elif
+		- Loops
+			- for
+			- while
+		- Jumping Statements
+			- break
+			- continue
+			- pass
+			- return
+		- Inner Loops
+		- Functions
+			Syntax:
+				def functionname(arguments):
+					//stmnts
+					return return_value
+
+			- predefined 
+			- user defined
+
+			User Defined:
+			============
+				- with returntype and with arguments
+					Reading => Main
+					Printing => Main
+					Logic => Function
+				- with returntype and without arguments
+					Reading => Function
+					Printing => Main
+					Logic => Function
+				- without returntype and with arguments
+				    Reading => Main
+				    Printing => Function
+				    Logic => Function
+				- without returntype and without arguments
+				    Reading => Function
+				    Printing => Function
+				    Logic => Function
+		- Function argument types
+			- Default
+			- Keyword
+			- Required or Positional
+			- Variable Length
+
+	
