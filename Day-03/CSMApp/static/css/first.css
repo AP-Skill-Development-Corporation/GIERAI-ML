@@ -1,0 +1,24 @@
+h3
+{
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: green;
+	color: white;
+	padding: 8px;
+	border-radius: 5px 15px 15px 5px;
+	text-align: center;
+}
+form
+{
+	margin-left: 25%;
+	margin-right: 25%;
+	border: 2px solid red;
+	border-radius: 15px;
+	padding: 15px;
+}
+
+label,input,select
+{
+	margin-bottom: 10px;
+}
+

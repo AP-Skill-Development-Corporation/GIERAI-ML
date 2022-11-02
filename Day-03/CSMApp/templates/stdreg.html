@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/first.css' %}">
+</head>
+<body>
+	<h3>Registration</h3>
+	<form method="post">
+		{% csrf_token %}
+		<label>Student name</label>
+		<input type="text" name="sn"><br/>
+		<label>Student Roll</label>
+		<input type="text" name="sr"><br/>
+		<label>Student Branch</label>
+		<select name="sb">
+			<option>--Select Your Option--</option>
+			<option>CSE</option>
+			<option>CSM</option>
+			<option>ECE</option>
+		</select><br/>
+		<label>Student Year</label>
+		<input type="number" name="sy"><br/>
+		<input type="reset" value="Clear">
+		<input type="submit" value="Create">
+	</form>
+</body>
+</html>
