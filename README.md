@@ -12,4 +12,12 @@
   - Admin and User App files overview
   - Interface between controllers
   - Http Request and Response
+
+# Day-03(02-11-2022):
+  - Introduction to Django
+  - Advantages, Disadvantages and Applications of it
+  - Template Folder Creation and Static File Handling
+  - Interface between controller to templates
+  
+  
   
