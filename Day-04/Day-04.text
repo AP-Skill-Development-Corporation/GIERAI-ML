@@ -1,0 +1,54 @@
+Day-04[03-11-2022]:
+===================
+	Good Morning to All...
+
+	Bootstrap 4 Overview:
+	=====================
+	- To display the webpage in responsive
+	- User Attractive and with good styling with predefined css and js
+	- For device scaling the page is to be either shrink or to enlarge
+	- To style more number of styling properties for a single tag
+
+	Grid System:
+	============
+	- To display the content in columns we are prefering to use grid system for all devices
+	- Device scaling for a responsive web pages are
+		=> very small -> xm or -> col
+		=> small -> sm
+		=> medium -> md
+		=> large -> lg
+		=> extra large -> xl
+	- Based on the scaling we need to prefer the columns size
+
+	Margin and Padding:
+	===================
+		- Margin => For all directions
+		- Padding => For all directions
+		- ml => margin left ** pl => padding left
+		- mr => margin right ** pr => padding right
+		- mb => margin bottom ** pb => padding bottom
+		- mt => margin top ** pt => padding top
+		- mx => margin right and left ** px => padding left and right
+		- my => margin top and bottom ** py => padding top and bottom
+
+	Colors in Bootstrap:
+	====================
+	- primary => blue
+	- success => green
+	- info => light blue
+	- danger => red
+	- warning => yellow
+	- light => white
+	- dark => black
+	- secondary => grey
+
+
+	Template Blocks:
+	================
+	- {{variable}}
+	- {% load static %}
+	- {% url 'urlname' %}
+	- {% block title %} value to display {% endblock %}
+	- {% block content %} Body {% endblock %}
+	- {% include '.htmlfile' %} => constant file for all .html files
+	- {% extends '.htmlfile ' %} => Default file to be opened before executing the present html file
