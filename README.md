@@ -19,5 +19,8 @@
   - Template Folder Creation and Static File Handling
   - Interface between controller to templates
   
-  
+# Day-04(03-11-2022):
+  - Interface between controller to template and then template to controller and controller to another template
+  - Bootstrap4 Overview,Advantages, Useage of it
+  - Template Blocks
   
