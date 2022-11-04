@@ -23,4 +23,9 @@
   - Interface between controller to template and then template to controller and controller to another template
   - Bootstrap4 Overview,Advantages, Useage of it
   - Template Blocks
-  
+ 
+# Day-05(04-11-2022):
+  - Model Creation,makemigrations and migrate
+  - ORM Queries
+  - CRUD Operations in shell
+  - Cread and Read in html file with sample example on it
