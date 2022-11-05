@@ -29,3 +29,10 @@
   - ORM Queries
   - CRUD Operations in shell
   - Cread and Read in html file with sample example on it
+
+# Day-06(05-11-2022):
+  - Update and Delete Operations with sample example on it
+  - Superuser Creation
+  - Forms concept with widgets for it
+  - User Registration and Authentication
+  - Messages Concept and decorators
