@@ -1,0 +1,26 @@
+{% extends 'html/base.html' %}
+{% block title %}Student Update{% endblock %}
+{% block content %}
+<div class="container mt-4">
+	<div class="card col-md-5 mx-auto shadow-lg">
+		<h3>Student Update</h3>
+		<div class="card-body">
+			<form method="post">
+  				{% csrf_token %}
+  				<input type="text" name="sr" value="{{b.stroll}}" class="form-control my-2">
+  				<input type="text" name="sn" value="{{b.stname}}" class="form-control my-2">
+  				<input type="text" name="sb" value="{{b.stbranch}}" class="form-control my-2">
+  				<input type="number" name="sy" value="{{b.styear}}" class="form-control my-2">
+  				<div class="row">
+  					<div class="col">
+  						<a href="{% url 'strg' %}" class="btn btn-outline-warning form-control">Back</a>
+  					</div>
+  					<div class="col">
+  						<input type="submit" value="Update Student" class="form-control btn btn-outline-success">
+  					</div>
+  				</div>
+  			</form>
+		</div>
+	</div>
+</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'html/base.html' %}
+{% block title %}Student Delete{% endblock %}
+{% block content %}
+<div class="container mt-4">
+	<div class="card col-md-5 mx-auto shadow-lg">
+		<h3>Student Deletion</h3>
+		<div class="card-body">
+			<form method="post">
+				{% csrf_token %}
+				<p>Are You Sure Want to Delete {{z.stroll}} with name {{z.stname}}?</p>
+				<div class="row">
+					<div class="col">
+						<a href="{% url 'strg' %}" class="btn btn-outline-danger form-control mx-2">Cancel</a>
+					</div>
+					<div class="col">
+						<input type="submit" value="Confirm" class="btn btn-outline-success form-control mx-2">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+{% endblock %}
